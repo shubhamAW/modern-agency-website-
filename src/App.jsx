@@ -5,7 +5,7 @@ import {Billing, Hero, Business , CardDeal , Clients , CTA,Navbar, Button , Feed
 
 const App = () => {
   return (
-    <div className='bg-primary text-white w-full overflow-hidden'>
+    <div className='bg-primary text-white w-[100%] '>
       {/* navbar */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -14,12 +14,13 @@ const App = () => {
       </div>
 
       {/* hero */}
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} bg-blue-400`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} bg-blue-600`}>
         <div className={`${styles.boxWidth} bg-yellow-400`}>
           <Hero />
         </div>
       </div>
 
+      {/* other component cards */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} bg-rose-400`}>
         <div className={`${styles.boxWidth} bg-yellow-600`}>
           Stats
@@ -33,6 +34,8 @@ const App = () => {
           <Footer/>
         </div>
       </div>
+
+      
     </div>
   )
 }
