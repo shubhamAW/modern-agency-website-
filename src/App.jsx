@@ -23,7 +23,7 @@ const App = () => {
       {/* other component cards */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} bg-rose-400`}>
         <div className={`${styles.boxWidth} bg-yellow-600`}>
-          Stats
+          <Stats/>
           <Business/> 
           <Billing/> 
           <CardDeal />
