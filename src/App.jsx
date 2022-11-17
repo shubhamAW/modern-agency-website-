@@ -14,17 +14,18 @@ const App = () => {
       </div>
 
       {/* hero */}
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} bg-blue-600`}>
-        <div className={`${styles.boxWidth} bg-yellow-400`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth} `}>
           <Hero />
         </div>
       </div>
 
       {/* other component cards */}
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} bg-rose-400`}>
-        <div className={`${styles.boxWidth} bg-yellow-600`}>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart} `}>
+        <div className={`${styles.boxWidth} `}>
           <Stats/>
           <Business/> 
+          {/* <Business/> */}
           <Billing/> 
           <CardDeal />
           <Testimonials/>
